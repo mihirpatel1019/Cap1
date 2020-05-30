@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>USER FORM</title>
+</head>
+<body>
+	<form>
+		<table style="width:50%" border="1" align="center">
+			<thead>
+				<tr>
+					<td colspan="2" rowspan="5" align="center" style ="background-color:yellow;">
+						<h2 style="color:red">User Form</h2>
+					</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style ="background-color:powderblue;">Enter Name</td>
+					<td align="center" style ="background-color:powderblue;">
+						<textarea style="width:85%"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td style ="background-color:powderblue;">Enter Password</td>
+					<td align="center" style ="background-color:powderblue;">
+						<input type="password"style="width:85%">
+					</td>
+				</tr>
+				<tr>
+					<td style ="background-color:powderblue;">Enter Address</td>
+					<td align="center" style ="background-color:powderblue;">
+						<textarea rows="6" cols="30" style="width:85%"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td style ="background-color:powderblue;">Select Game</td>
+					<td style ="background-color:powderblue;">
+						<input type="checkbox" name="Hockey" value="Hockey">Hockey<br>
+						<input type="checkbox" name="Football" value="Football">Football<br>
+						<input type="checkbox" name="Badmintion" value="Badmintion">Badmintion<br>
+						<input type="checkbox" name="Cricket" value="Cricket">Cricket<br>
+						<input type="checkbox" name="Volleyball" value="Volleyball">Volleyball
+					</td>
+				</tr>
+				<tr>
+					<td style ="background-color:powderblue;">Gender</td>
+					<td style ="background-color:powderblue;">
+						<input type="radio" name="gender"value="Male">Male
+						<input type="radio" name="gender"value="Female">Female
+					</td>
+				</tr>
+				<tr> 
+					<td style ="background-color:powderblue;">
+						<label for="Age">Select ur age</label>
+					</td>
+					<td style ="background-color:powderblue;">
+						<select id="Age" name="Age">
+	   						<option value="select">select</option>
+	   						<option value="18">18</option>
+	   						<option value="19">19</option>
+	   						<option value="20">20</option>
+	   						<option value="21">21</option>
+	   						<option value="22">22</option>
+	   						<option value="23">23</option>
+	   						<option value="24">24</option>
+	   						<option value="25">25</option>
+	   						<option value="26">26</option>
+	   						<option value="27">27</option>
+	   						<option value="28">28</option>
+	   						<option value="29">29</option>
+	   						<option value="30">30</option>
+	   					</select>
+					</td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2" style ="background-color:powderblue;">
+						<input type="file" name="No file chosen" value="No file chosen">
+					</td>
+				</tr>
+				<tr>
+					<td align="center" colspan="2" style ="background-color:powderblue;">
+						<button type="button" onclick="alert('Hi')">Click Me</button>
+						<input type="reset" value="Reset" name="user_reset">
+						<input type="submit" value="Submit Form" name="user_submit">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
